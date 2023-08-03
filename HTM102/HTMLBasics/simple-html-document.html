@@ -1,0 +1,68 @@
+<article class="mt-20 mx-auto" data-v-70648372=""><div class="pt-3 activity-reading mx-auto" data-v-70648372=""><div class="breadcrumb op-7"><span class="breadcrumb-item">Introduction to HTML Training</span><span class="breadcrumb-item">Introduction to HTML</span></div><div><section class="exercise">
+  <h1 id="h1-1">A Simple HTML Document</h1>
+  <p>In this exercise, you will create your first HTML document by simply copying some code.
+    The purpose is to give you some sense of the structure of an HTML document.</p>
+  <ol>
+    <li>Create a new file in Visual Studio Code by selecting <samp>New Text File</samp> from the <samp>File</samp> menu:
+      <a class="link-open-image" href="https://static.webucator.com/materials/manuals/courseware-html/intro-vs-code-new-text-file-full.png" target="image-tab" title="" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-original-title="Open image in new tab.">
+                            <span class="far fa-external-link-alt" aria-hidden="true"></span></a><a class="link-open-image me-10 s3-image-preview" href="javascript:void(0)" title="" data-bs-toggle="tooltip" data-bs-placement="top" data-src="https://webucator-django.s3.amazonaws.com/materials/manuals/courseware-html/intro-vs-code-new-text-file.png" data-bs-original-title="preview image in s3.">
+                            <span class="fa-solid fa-eye"></span></a><a class="link-open-image me-10 s3-image-upload" href="javascript:void(0)" title="" data-bs-toggle="tooltip" data-bs-placement="top" data-orgin="intro-vs-code-new-text-file.png" data-bs-original-title="delete and re-upload image to S3.">
+                            <span class="fa-regular fa-cloud-arrow-up"></span></a><img src="https://static.webucator.com/materials/manuals/courseware-html/intro-vs-code-new-text-file.png" alt="Create a new file in Visual Studio Code">
+    </li>
+    <li>To save the file, select <samp>File &gt; Save As…</samp>
+      <a class="link-open-image" href="https://static.webucator.com/materials/manuals/courseware-html/intro-vs-code-save-as-full.png" target="image-tab" title="" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-original-title="Open image in new tab.">
+                            <span class="far fa-external-link-alt" aria-hidden="true"></span></a><a class="link-open-image me-10 s3-image-preview" href="javascript:void(0)" title="" data-bs-toggle="tooltip" data-bs-placement="top" data-src="https://webucator-django.s3.amazonaws.com/materials/manuals/courseware-html/intro-vs-code-save-as.png" data-bs-original-title="preview image in s3.">
+                            <span class="fa-solid fa-eye"></span></a><a class="link-open-image me-10 s3-image-upload" href="javascript:void(0)" title="" data-bs-toggle="tooltip" data-bs-placement="top" data-orgin="intro-vs-code-save-as.png" data-bs-original-title="delete and re-upload image to S3.">
+                            <span class="fa-regular fa-cloud-arrow-up"></span></a><img src="https://static.webucator.com/materials/manuals/courseware-html/intro-vs-code-save-as.png" alt="Visual Studio Code: File - Save As..." width="500">
+    </li>
+    <li>Save the file as <span class="filepath">hello-world.html</span> in the <span class="filepath">HTMLBasics/Exercises</span> folder:
+      <a class="link-open-image" href="https://static.webucator.com/materials/manuals/courseware-html/intro-vs-code-save-as-hello-world-full.png" target="image-tab" title="" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-original-title="Open image in new tab.">
+                            <span class="far fa-external-link-alt" aria-hidden="true"></span></a><a class="link-open-image me-10 s3-image-preview" href="javascript:void(0)" title="" data-bs-toggle="tooltip" data-bs-placement="top" data-src="https://webucator-django.s3.amazonaws.com/materials/manuals/courseware-html/intro-vs-code-save-as-hello-world.png" data-bs-original-title="preview image in s3.">
+                            <span class="fa-solid fa-eye"></span></a><a class="link-open-image me-10 s3-image-upload" href="javascript:void(0)" title="" data-bs-toggle="tooltip" data-bs-placement="top" data-orgin="intro-vs-code-save-as-hello-world.png" data-bs-original-title="delete and re-upload image to S3.">
+                            <span class="fa-regular fa-cloud-arrow-up"></span></a><img src="https://static.webucator.com/materials/manuals/courseware-html/intro-vs-code-save-as-hello-world.png" alt="Visual Studio Code: File - Save As hello-world.html">
+    </li>
+    <li>Type the following exactly as shown:
+      <pre><code class="html hljs language-xml"><span class="hljs-meta">&lt;!DOCTYPE <span class="hljs-keyword">html</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">html</span> <span class="hljs-attr">lang</span>=<span class="hljs-string">"en"</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">head</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">meta</span> <span class="hljs-attr">charset</span>=<span class="hljs-string">"UTF-8"</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">meta</span> <span class="hljs-attr">name</span>=<span class="hljs-string">"viewport"</span> <span class="hljs-attr">content</span>=<span class="hljs-string">"width=device-width, initial-scale=1"</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">title</span>&gt;</span>Hello world!<span class="hljs-tag">&lt;/<span class="hljs-name">title</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">head</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">body</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>Hello world!<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>  
+<span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
+    </li>
+    <li>Save the file again and then open it in your browser either by navigating to the file in your folder system and
+      double-clicking it:
+      <a class="link-open-image" href="https://static.webucator.com/materials/manuals/courseware-html/intro-open-file-windows-explorer-full.png" target="image-tab" title="" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-original-title="Open image in new tab.">
+                            <span class="far fa-external-link-alt" aria-hidden="true"></span></a><a class="link-open-image me-10 s3-image-preview" href="javascript:void(0)" title="" data-bs-toggle="tooltip" data-bs-placement="top" data-src="https://webucator-django.s3.amazonaws.com/materials/manuals/courseware-html/intro-open-file-windows-explorer.png" data-bs-original-title="preview image in s3.">
+                            <span class="fa-solid fa-eye"></span></a><a class="link-open-image me-10 s3-image-upload" href="javascript:void(0)" title="" data-bs-toggle="tooltip" data-bs-placement="top" data-orgin="intro-open-file-windows-explorer.png" data-bs-original-title="delete and re-upload image to S3.">
+                            <span class="fa-regular fa-cloud-arrow-up"></span></a><img src="https://static.webucator.com/materials/manuals/courseware-html/intro-open-file-windows-explorer.png" alt="Open hello-world.html in file system">
+      Or by right-clicking the file in Visual Studio Code and selecting <samp>Open in Default Browser</samp>, which you
+      should have added when setting up Visual Studio Code:
+      <a class="link-open-image" href="https://static.webucator.com/materials/manuals/courseware-html/intro-vs-code-open-in-default-browser-full.png" target="image-tab" title="" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-original-title="Open image in new tab.">
+                            <span class="far fa-external-link-alt" aria-hidden="true"></span></a><a class="link-open-image me-10 s3-image-preview" href="javascript:void(0)" title="" data-bs-toggle="tooltip" data-bs-placement="top" data-src="https://webucator-django.s3.amazonaws.com/materials/manuals/courseware-html/intro-vs-code-open-in-default-browser.png" data-bs-original-title="preview image in s3.">
+                            <span class="fa-solid fa-eye"></span></a><a class="link-open-image me-10 s3-image-upload" href="javascript:void(0)" title="" data-bs-toggle="tooltip" data-bs-placement="top" data-orgin="intro-vs-code-open-in-default-browser.png" data-bs-original-title="delete and re-upload image to S3.">
+                            <span class="fa-regular fa-cloud-arrow-up"></span></a><img src="https://static.webucator.com/materials/manuals/courseware-html/intro-vs-code-open-in-default-browser.png" alt="Open hello-world.html with Open in Default Browser">
+      The page should appear as follows:
+      <a class="link-open-image" href="https://static.webucator.com/materials/manuals/courseware-html/intro-hello-world-full.png" target="image-tab" title="" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-original-title="Open image in new tab.">
+                            <span class="far fa-external-link-alt" aria-hidden="true"></span></a><a class="link-open-image me-10 s3-image-preview" href="javascript:void(0)" title="" data-bs-toggle="tooltip" data-bs-placement="top" data-src="https://webucator-django.s3.amazonaws.com/materials/manuals/courseware-html/intro-hello-world.png" data-bs-original-title="preview image in s3.">
+                            <span class="fa-solid fa-eye"></span></a><a class="link-open-image me-10 s3-image-upload" href="javascript:void(0)" title="" data-bs-toggle="tooltip" data-bs-placement="top" data-orgin="intro-hello-world.png" data-bs-original-title="delete and re-upload image to S3.">
+                            <span class="fa-regular fa-cloud-arrow-up"></span></a><img src="https://static.webucator.com/materials/manuals/courseware-html/intro-hello-world.png" alt="hello-world.html in Browser">
+    </li>
+  </ol>
+  <div class="solution-header mt-15 border-bottom"><span class="filepath-lead">Solution: </span><span class="filepath">HTMLBasics/Solutions/hello-world.html</span><button class="btn btn-link border d-block btn-sm mt-3 mb-3 collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#solution-1" aria-expanded="false" aria-controls="#solution-1" onclick="this.innerText = (this.innerText.trim() === 'Expand Source') ? 'Collapse Source' : 'Expand Source'">Expand Source</button></div><div id="solution-1" class="collapse"><pre class="file mt-0"><code class="html hljs language-xml"><span class="hljs-meta">&lt;!DOCTYPE <span class="hljs-keyword">html</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">html</span> <span class="hljs-attr">lang</span>=<span class="hljs-string">"en"</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">head</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">meta</span> <span class="hljs-attr">charset</span>=<span class="hljs-string">"UTF-8"</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">meta</span> <span class="hljs-attr">name</span>=<span class="hljs-string">"viewport"</span> <span class="hljs-attr">content</span>=<span class="hljs-string">"width=device-width, initial-scale=1"</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">title</span>&gt;</span>Hello world!<span class="hljs-tag">&lt;/<span class="hljs-name">title</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">head</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">body</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>Hello world!<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>  
+<span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span>
+</code></pre></div>
+</section></div></div></article>
